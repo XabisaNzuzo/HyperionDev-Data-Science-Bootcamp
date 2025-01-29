@@ -1,0 +1,20 @@
+ 1.
+a) Data - Data refers to unprocessed, raw information. 
+b) Field - A field consists of characters with a specific significance or purpose.
+c) Record - A record is a logically organised group of one or more fields that provides a description of a person, place or object.
+d) File - A file is a collection of related records. 
+
+2. A Database Management System is a collection of programs, which works to manage the database structure and control access
+   to the data stored in the database. 
+   Advantages include: Better data sharing, Improved data integration, Minimised data inconsistency, Improved data access, 
+   Improved decision making, and Increased end-user productivity. 
+
+3. Data and Information differ in that data represents unprocessed information lacking meaning, while information results
+   from the processing of raw data to unveil its significance. 
+
+4. Metadata is data providing information about one or more aspects of the data. It can include information about the 
+   source, format, quality, structure, and other characteristics of the data, helping users understand and manage the data more effectively.
+
+5.
+e) 4 records.
+f) 5 fields

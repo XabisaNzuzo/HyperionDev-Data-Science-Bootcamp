@@ -1,0 +1,47 @@
+-- Create table called Students with attributes.
+CREATE TABLE Student (
+STU_NUM CHAR(6) NOT NULL,
+STU_SNAME VARCHAR(16),
+STU_FNAME VARCHAR(15),
+STU_INITIAL CHAR(1),
+STU_STARTDATE DATE,
+COURSE_CODE CHAR(3),
+PROJ_NUM INT,
+PRIMARY KEY (STU_NUM)
+);
+
+-- Insert values for all columns for multiple rows.
+INSERT INTO Student
+VALUES ('01', 'Snow', 'Jon', 'E', '2014-04-05', '201', 6), 
+('02', 'Stark', 'Arya', 'C', '2017-07-12', '305', 11),
+('03', 'Lannister', 'Jamie', 'C', '2012-09-05', '101', 2),
+('04', 'Lannister', 'Cercei', 'J', '2012-09-05', '101', 2),
+('05', 'Greyjoy', 'Theon', 'I', '2015-12-09', '402', 14),
+('06', 'Tyrell', 'Margaery', 'Y', '2017-07-12', '305', 10),
+('07', 'Baratheon', 'Tommen', 'R', '2019-06-13', '201', 5);
+
+-- Return all records with course code 305.
+SELECT * FROM Student
+WHERE COURSE_CODE = '305';
+
+-- Update course code to 304 for student number 07.
+UPDATE Student
+SET COURSE_CODE = '304'
+WHERE STU_NUM = '07';
+
+-- Delete Jamie Lannister's row.
+DELETE FROM Student
+WHERE STU_FNAME = 'Jamie' AND STU_SNAME = 'Lennister'AND STU_STARTDATE = '2012-09-05' AND COURSE_CODE = '101' AND PROJ_NUM = 2;
+
+-- Change project number to 14 for students who started before 2016-01-01 and whose course code is atleast 201.
+UPDATE Student
+SET PROJ_NUM = '14' 
+WHERE STU_STARTDATE < '2016-01-01' AND COURSE_CODE >= '201';
+
+-- Delete the student table entirely.
+DROP TABLE Student;
+
+
+
+
+

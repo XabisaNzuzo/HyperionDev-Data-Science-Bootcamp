@@ -1,0 +1,10 @@
+Task 1.
+Mean, Meadian or Mode
+1. Median
+2. Mode
+3. Mean
+4. Median
+
+Variance or Standard Deviation
+1. Standard Deviation
+2. Variance

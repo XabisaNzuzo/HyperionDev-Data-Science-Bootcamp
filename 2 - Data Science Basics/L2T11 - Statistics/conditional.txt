@@ -1,0 +1,40 @@
+Task 2.
+
+1. 
+P(B) = The probability that the driver is under the age of 25
+P(A and B) = The probability that the driver has had an accident and they are under the age of 25 
+
+P(A|B) = P(A and B)/P(B) 
+       = 5% / 10% 
+       = 50%
+
+
+2.
+P(B) = The probability of landing heads on first flip
+P(A and B) = The probaility of landing heads on the first and second flip
+
+P(B) = 1/2 = 50%
+P(A and B) = 50% * 50% = 25%
+
+P(A|B) = P(A and B)/P(B)
+       = 25% / 50%
+       = 50%
+
+
+3.
+P(B) = Probability of taking maths = 60%
+P(A and B) = Probability of taking maths and achieving 80% = 30%
+
+P(A|B) = P(A and B)/P(B)
+       = 30% / 60%
+       = 50%
+
+
+4.
+H: Doesn't have covid
+E: Tested positive
+
+P(H) = 30/100 = 30%
+P(E|H) = 1/30 = 3.33%
+P(E) = 64/100 = 64%
+P(H|E) = 1/1+63 = 1.56%
