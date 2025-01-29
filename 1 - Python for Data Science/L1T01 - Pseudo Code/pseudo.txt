@@ -1,0 +1,82 @@
+Question 1
+
+positive_num = []
+
+    while True:
+        try:
+            user_input = float(input("Enter a positive number or enter 0 to stop: "))
+            if user_input < 0:
+                print("Please enter a positive number")
+            elif user_input == 0:
+                break
+            else:
+                positive_num.append(user_input)
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+    if positive_num:
+        largest_number = max(positive_num)
+        print(f"The largest number entered was: {largest_number}")
+    else:
+        print("No positive numbers were entered.")
+		
+Question 2
+
+first_name = input_message("Please enter your name:")
+
+	print(f"Hello, {first_name}, World!")
+	
+Question 3
+
+sum = 0
+count = 0
+
+while True:
+	user_input = input("Please eter an integer or a non-integer to stop:")
+	number = int(user_input)
+	sum += number 
+	count += 1
+	break
+	
+if count > 0:
+	average = sum / count
+	print(f"The average is: {average: .2f}")
+else:
+	print("No integer was entered")
+	
+	
+Question 4
+
+bought_items = []
+
+while True:
+	product_name = user_input("Please enter product name or press the Enter key to stop:")
+	if not product_name:
+		break
+	bought_items.add(product_name.lower())
+	
+if bought_items:
+	sorted_products = sorted(bought_items)
+	print("Products left to buy, in alphabetical order:")
+	for product in sorted_products:
+		print(product)
+	else:
+		print("No products were entered")
+		
+Question 5
+
+cal_SAP(x,y):
+  
+    x = float(input("Please enter the value of X: "))
+    y = float(input("Please enter the value of Y: "))
+
+    S = x + y
+    A = S / 2
+    P = x * y
+
+    print(f"S: {S}, A: {A}, P: {P}")
+	
+
+
+		
+	
